@@ -1,0 +1,64 @@
+#  Make sure you include all nav file coding requirements, as defined in https://test.cloud.ibm.com/docs/writing?topic=writing-code-nav
+#  Anything with a fully qualified URL with `http` or `https` will get an external link icon added to the nav entry
+toc:
+  properties:
+    subcollection: private-path
+    industry: SoftwareAndPlatformApplications, Airlines, Healthcare, Financial services, Insurance
+    use-case: ApplicationIntegration
+    compliance: ISOIEC27701, GDPR, SOC3, PCIDSS, IBMCloudFFS
+    audience: solution
+    category: solution_docs
+    content-type: solution
+    deployable: false
+    href: /docs/private-path
+    path: private-path
+    description: Enable and manage private connectivity for your hosted service.
+    label: Private Path solution guide (Beta)
+
+  entries:
+    - navgroup:
+       id: overview
+       topics:
+       - pps_overview.md
+       - include: ../solution-tutorials/vpc-pps-basics.hidden.md
+
+    - navgroup:
+        id: architecture
+        topics:
+        - pps_architecture.md
+
+    - navgroup:
+        id: deploy
+        topics:
+        - include: ../vpc/ppnlb-create.md
+        - include: ../vpc/pps-create.md
+        - include: ../vpc/pps-publish.md
+        - include: ../vpc/pps-verify.md
+        - include: ../vpc/pps-communicate.md
+        - include: ../vpc/pps-review.md
+        - include: ../vpc/pps-delete.md
+        - topicgroup:
+            label: Consumer
+            topics:
+            - include: ../vpc/vpe-create.md
+
+    - navgroup:
+        id: reference
+        topics:
+        - include: ../vpc/at-events.md
+        - include: ../vpc/api-auth-correlation.md
+        - include: ../vpc/quotas.md
+        - pps_responsibilities.md
+
+    - navgroup:
+        id: help
+        topics:
+        - include: ../vpc/pps-faqs.md
+        - topicgroup:
+            label: Troubleshooting
+            topics:
+            - include: ../vpc/ts-pps1.md
+            - include: ../vpc/ts-pps2.md
+            - include: ../vpc/ts-pps3.md
+            - include: ../vpc/lb-ts-auth-errors.md
+            - include: ../vpc/lb-ts-vpe-vsi.md
