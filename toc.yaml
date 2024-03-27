@@ -20,7 +20,7 @@ toc:
        id: overview
        topics:
        - pps_overview.md
-       - include: ../solution-tutorials/vpc-pps-basics.hidden.md
+       - include: ../solution-tutorials?topic=solution-tutorials-vpc-pps-basics
 
     - navgroup:
         id: architecture
