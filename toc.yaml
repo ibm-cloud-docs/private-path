@@ -53,7 +53,8 @@ toc:
     - navgroup:
         id: help
         topics:
-        - include: ../vpc/pps-faqs.md
+        - include: ../vpc/faq-private-path.md
+        - include: ../vpc/nlb-faqs.md
         - topicgroup:
             label: Troubleshooting
             topics:
