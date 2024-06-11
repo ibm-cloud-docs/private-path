@@ -21,6 +21,7 @@ toc:
        topics:
        - pps_overview.md
        - include: ../solution-tutorials/vpc-pps-basics.md
+       - release_notes.md
 
     - navgroup:
         id: architecture
