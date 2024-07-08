@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-05-01"
+lastupdated: "2024-07-08"
 
 keywords:
 
@@ -44,6 +44,17 @@ Virtual Private Endpoint Gateway
 Private Path service
 :   Associates a provider's service with a Private Path network load balancer and to manage incoming connectivity requests. To learn more, see [About Private Path services](/docs/vpc?topic=vpc-using-private-path-services).
 
+Private Path connectivity
+:   Links Provider's VPC and Consumer's VPC over private network paths using a [Virtual Private Endpoint Gateway](/docs/vpc?topic=vpc-about-vpe), eliminating the need for internet access.
+
+Service providers
+:   Includes the following:
+
+    - Cloud Network Administrators from Consumer, ISV and IBM Cloud Services
+    - Any industry, across all MZR geographies
+    - IBM Cloud Services
+
+
 Private Path network load balancer
 :   Load balances traffic in a Private Path. Only receives requests across the IBM Cloud network. To learn more, see [About network load balancers](/docs/vpc?topic=vpc-network-load-balancers).
 
@@ -55,3 +66,5 @@ Direct Link
 
 Private DNS
 :   Use a Private Domain Name System (DNS) to associate human friendly names with IP addresses. Private DNS zones are resolvable only on IBM Cloud, and only from explicitly permitted networks in an account. To learn more, see [Getting started with IBM Cloud DNS Services](https://test.cloud.ibm.com/docs/dns-svcs?topic=dns-svcs-getting-started).
+
+

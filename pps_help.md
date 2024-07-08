@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023
-lastupdated: "2023-09-11"
+  years:  2023, 2024
+lastupdated: "2024-07-08"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: private-path
 # Private Path service help
 {: #private-path-service-help}
 
-Help: Troubleshooting content, FAQs, how to get support, or product messages.
+* Help: Troubleshooting content, FAQs, how to get support, or product messages.
 
    * FAQs
    * Troubleshooting topics
