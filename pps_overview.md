@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-08"
+lastupdated: "2024-07-19"
 
 keywords:
 
@@ -40,6 +40,6 @@ Forthcoming
 The following links provide additional information about the Private Path solution:
 
 - [Private Path service architecture](/docs/private-path?topic=private-path-private-path-service-architecture){: external}
-- [Private Path service planning](/docs/private-path?topic=private-path-private-path-service-planning){: external}
-- [Creating a Private Path network load balancer](/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui){: external}
-- [Creating a Private Path service](/docs/private-path?topic=private-path-pps-ui-creating&interface=ui){: external}
+- [About Private Path services](/docs/vpc?topic=vpc-private-path-service-intro&interface=ui){: external}
+- [Creating a Private Path network load balancer](/docs/vpc?topic=vpc-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui){: external}
+- [Creating a Private Path service](/docs/vpc?topic=vpc-private-path-service-about&interface=ui){: external}

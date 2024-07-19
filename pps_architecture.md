@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-08"
+lastupdated: "2024-07-19"
 
 keywords:
 
@@ -42,7 +42,7 @@ Virtual Private Endpoint Gateway
 :   Allows consumers to connect to a provider's service over a Private Path. To learn more, see [About virtual private endpoint gateways](/docs/vpc?topic=vpc-about-vpe).
 
 Private Path service
-:   Associates a provider's service with a Private Path network load balancer and to manage incoming connectivity requests. To learn more, see [About Private Path services](/docs/vpc?topic=vpc-using-private-path-services).
+:   Associates a provider's service with a Private Path network load balancer and to manage incoming connectivity requests. To learn more, see [About Private Path services](/docs/vpc?topic=vpc-private-path-service-intro&interface=ui).
 
 Private Path connectivity
 :   Links Provider's VPC and Consumer's VPC over private network paths using a [Virtual Private Endpoint Gateway](/docs/vpc?topic=vpc-about-vpe), eliminating the need for internet access.
@@ -65,6 +65,6 @@ Direct Link
 :   Directly connects to your IBM Cloud infrastructure without crossing over public internet and access your VPE Gateways for IBM Cloud Services. To learn more, see [Accessing VPEs from an on-prem network using Direct Link or from another VPC using Transit Gateway](/vpc?topic=vpc-end-to-end-private-connectivity-vpe&interface=cli).
 
 Private DNS
-:   Use a Private Domain Name System (DNS) to associate human friendly names with IP addresses. Private DNS zones are resolvable only on IBM Cloud, and only from explicitly permitted networks in an account. To learn more, see [Getting started with IBM Cloud DNS Services](https://test.cloud.ibm.com/docs/dns-svcs?topic=dns-svcs-getting-started).
+:   Use a Private Domain Name System (DNS) to associate human friendly names with IP addresses. Private DNS zones are resolvable only on IBM Cloud, and only from explicitly permitted networks in an account. To learn more, see [Getting started with IBM Cloud DNS Services](/docs/dns-svcs?topic=dns-svcs-getting-started).
 
 
