@@ -24,10 +24,6 @@ toc:
         topics:
         - pps_architecture.md
     - navgroup:
-        id: plan
-        topics:
-        - pps_planning.md
-    - navgroup:
         id: howto
         topics:
         - include: ../vpc/ppnlb-create.md
@@ -39,7 +35,6 @@ toc:
     - navgroup:
         id: reference
         topics:
-        - pps_reference.md
         - include: ../vpc/at-events.md
         - include: ../vpc/quotas.md
         - pps_responsibilities.md
@@ -47,7 +42,7 @@ toc:
         id: help
         topics:
         - pps_help.md
-        - include: ../vpc/pps-faqs.md
+        - include: ../vpc/faq-private-path.md
         - include: ../vpc/ts-pps1.md
         - include: ../vpc/ts-pps2.md
         - include: ../vpc/ts-pps3.md
