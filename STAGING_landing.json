@@ -22,11 +22,6 @@
           "href": "/docs/private-path?topic=private-path-private-path-service-architecture&interface=ui"
         },
         {
-          "title": "Creating a Private Path service",
-          "description": "You can create a Private Path service in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
-          "href": "/docs/vpc?topic=vpc-creating-virtual-servers&interface=ui"
-        },
-        {
           "title": "Creating a Private Path network load balancer",
           "description": "You can create a Private Path network load balancer in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
           "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
@@ -36,23 +31,18 @@
           "description": "You can verify connectivity a Private Path network load balancer in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
           "href": "/docs/private-path?topic=private-path-pps-verify&interface=ui"
         },
-        {
-          "title": "Communicating connection information to customers",
-          "description": "Communiate connection information to customers so that they can connect to your Private Path service.",
-          "href": "/docs/private-path?topic=private-path-pps-ui-communicate"
-        }
       ]
     },
     "section_highlights": [
         {
-          "title": "IBM Cloud Virtual Server for VPC",
-          "description": "IBM Cloud Virtual Servers are configurable single- or multi-tenant virtual machines, available with Intel, IBM zSystems, and IBM LinuxONE architectures.",
-          "href": "https://www.ibm.com/products/virtual-servers"
+          "title": "Creating a Private Path service",
+          "description": "You can create a Private Path service in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
+          "href": "/docs/vpc?topic=vpc-creating-virtual-servers&interface=ui"
         },
         {
-          "title": "IBM Cloud Bare Metal Servers on VPC Infrastructure",
-          "description": "Discover the deployment options associated with IBM Cloud Bare Metal Servers.",
-          "href": "https://www.ibm.com/products/bare-metal-servers/vpc"
+          "title": "Communicating connection information to customers",
+          "description": "Communiate connection information to customers so that they can connect to your Private Path service.",
+          "href": "/docs/private-path?topic=private-path-pps-ui-communicate"
         }
     ],
     "section_devtools": {
