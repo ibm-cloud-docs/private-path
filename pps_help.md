@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-07-08"
+lastupdated: "2024-10-02"
 
 keywords:
 
@@ -19,4 +19,4 @@ subcollection: private-path
 
    * FAQs
    * Troubleshooting topics
-   * Public Slack channel or IBM representative
+   * Public Slack channel or IBM representative 
