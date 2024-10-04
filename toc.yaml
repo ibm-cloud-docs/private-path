@@ -26,6 +26,7 @@ toc:
     - navgroup:
         id: howto
         topics:
+        - include: ../vpc/pps-create.md
         - include: ../vpc/ppnlb-create.md
         - include: ../vpc/pps-verify.md
         - include: ../vpc/pps-publish.md
