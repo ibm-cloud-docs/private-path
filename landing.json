@@ -8,43 +8,32 @@
       "links": [
         {
           "title": "About Private Path",
-          "description": "Learn more about the Private Path solution.",
           "href": "/docs/private-path?topic=private-path-overview&interface=ui"
         },
         {
           "title": "Exposing services to customers through private connectivity",
-          "description": "Get up and running quickly by completing this short tutorial to set up a Private Path service.",
           "href": "/docs/private-path?topic=private-path-vpc-pps-basics&interface=ui"
         },
-        {
-          "title": "Private Path architecture",
-          "description": "Learn more about Private Path architecture and service components.",
-          "href": "/docs/private-path?topic=private-path-private-path-service-architecture&interface=ui"
-        },
-        {
-          "title": "Creating a Private Path network load balancer",
-          "description": "You can create a Private Path network load balancer in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
-          "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
-        },
-        {
-          "title": "Verifying connectivity to a Private Path service",
-          "description": "You can verify connectivity a Private Path network load balancer in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
-          "href": "/docs/private-path?topic=private-path-pps-verify&interface=ui"
-        },
-      ]
-    },
-    "section_highlights": [
         {
           "title": "Creating a Private Path service",
           "description": "You can create a Private Path service in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
           "href": "/docs/vpc?topic=vpc-creating-virtual-servers&interface=ui"
         },
         {
+          "title": "Verifying connectivity to a Private Path service",
+          "href": "/docs/private-path?topic=private-path-pps-verify&interface=ui"
+        },
+        {
+          "title": "Creating a Private Path network load balancer",
+          "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
+        },
+        {
           "title": "Communicating connection information to customers",
           "description": "Communiate connection information to customers so that they can connect to your Private Path service.",
           "href": "/docs/private-path?topic=private-path-pps-ui-communicate"
         }
-    ],
+      ]
+    },
     "section_devtools": {
         "api": "/apidocs/vpc-beta/latest",
         "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
@@ -57,7 +46,7 @@
             "date": "18 March 2024",
             "title": "Introducing the Private Path solution (Beta release)",
             "description": "The Private Path solution solves security, privacy and complexity problems for IBM Cloud® consumers and providers who want to eliminate the risk of exposing their data on the public internet."
-          },
+          }
       ]
     }
   }
