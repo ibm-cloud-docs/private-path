@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-10-04"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -28,7 +28,7 @@ Figure 1 illustrates the steps required for a Private Path service to connect co
 1. The consumer creates a VPE gateway that requests connectivity to the Private Path service.
 1. The provider approves the connectivity request and establishes the connection.
 
-![Private Path service architecture](images/private_path_use_case_1.svg "Private Path service architecture"){: caption="Figure 1. Private Path service architecture" caption-side="bottom"}
+![Private Path service architecture](images/private_path_use_case_1.svg "Private Path service architecture"){: caption="Private Path service architecture" caption-side="bottom"}
 
 ## Private Path service components
 {: #private-path-service-components}

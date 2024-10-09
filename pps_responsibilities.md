@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-09-24"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -34,4 +34,4 @@ The following table describes the roles and responsibilities shared betwen the P
 | Request connection to a service | None | Use the connection information communicated by your service provider to request access to their service. Check your IBM Cloud account for updates on your request's approval or denial. |
 | Permit connection to a service | Either configure an access policy or manually [review connection requests](/docs/vpc?topic=vpc-pps-ui-reviewing&interface=ui) for your Private Path service. | None |
 | Provide connection information | [Communicate connection information to your consumers](/docs/vpc?topic=vpc-pps-ui-communicate), such as the CRN, applicable ports, and information on how to create a VPE gateway, so that they can connect to your service. | None |
-{: caption="Table 1. Roles and Responsibilities" caption-side="bottom"}
+{: caption="Roles and Responsibilities" caption-side="bottom"}
