@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-09-16"
+lastupdated: "2024-10-09"
 
 keywords:
 
@@ -30,7 +30,7 @@ Point-to-point connectivity
 
 The Private Path solution incorporates various products that IBM Cloud customers are already familiar with, such as VPC and network load balancers. It also incorporates any configured Virtual Private Endpoint (VPE) gateways and DNS Services, ensuring that the entire point-to-point data path is private across IBM Cloud. 
 
-![Private Path service overview](images/private_path_overview.svg "Private Path service overview"){: caption="Figure 1. A consumer VPE using a Private Path to connect to a service" caption-side="bottom"}
+![Private Path service overview](images/private_path_overview.svg "Private Path service overview"){: caption="A consumer VPE using a Private Path to connect to a service" caption-side="bottom"}
 
 To use IBM Cloud Private Path, you must first have an IBM Cloud account. To learn more, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started){: external}.
 {: note}
