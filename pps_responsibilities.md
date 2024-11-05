@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-05"
 
 keywords:
 
@@ -23,7 +23,7 @@ Private Path service is an orchestration service. The roles and responsibilities
 
 As you consume IBM Cloud services, be aware of your roles and responsibilities. For more information, see [Understanding your responsibilities when using Virtual Private Cloud](/docs/vpc?topic=vpc-responsibilities-vpc).
 
-The following table describes the roles and responsibilities shared betwen the Provider and Consumer in a Private Path service.
+The following table describes the roles and responsibilities shared betwen the provider and consumer in a Private Path service.
 
 | Task | Provider | Consumer |
 |----|----|----|

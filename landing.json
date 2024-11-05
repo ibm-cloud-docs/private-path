@@ -44,8 +44,7 @@
         "tiles": [
           {
             "date": "18 March 2024",
-            "title": "Introducing the Private Path solution (Beta release)",
-            "description": "The Private Path solution solves security, privacy and complexity problems for IBM Cloud® consumers and providers who want to eliminate the risk of exposing their data on the public internet."
+            "title": "Introducing the Private Path solution (Beta release) to keep customer data off the public internet"
           }
       ]
     }

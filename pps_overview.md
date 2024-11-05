@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-10-24"
+lastupdated: "2024-11-05"
 
 keywords:
 
@@ -23,7 +23,7 @@ Increased security and privacy
 :   Private Path allows targeted and directional connectivity between VPCs and accounts, allowing only consumers to initiate connections to the provider's service endpoint.
 
 Granular control
-:   Explicit authorization gives Providers full control over who can access their services.
+:   Explicit authorization gives providers full control over who can access their services.
 
 Scaling out managed services
 :   Point-to-point connectivity, with no other shared resource dependencies between consumer and producer VPC networks, simplifies deployment and enables providers to easily scale managed services.
