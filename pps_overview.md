@@ -41,7 +41,7 @@ The Private Path solution incorporates various products that IBM Cloud customers
 
 ![Private Path service overview](images/private_path_overview.svg "Private Path service overview"){: caption="A consumer VPE using a Private Path to connect to a service" caption-side="bottom"}
 
-To use IBM Cloud Private Path, you must first have an IBM Cloud account. To learn more, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started){: external}.
+To use IBM Cloud Private Path, you must first have an IBM Cloud account. To learn more, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started).
 {: note}
 
 ## Next steps
@@ -49,7 +49,7 @@ To use IBM Cloud Private Path, you must first have an IBM Cloud account. To lear
 
 The following links provide additional information about the Private Path solution:
 
-- [Private Path service architecture](/docs/private-path?topic=private-path-private-path-service-architecture){: external}
-- [About Private Path services](/docs/vpc?topic=vpc-private-path-service-intro&interface=ui){: external}
-- [Creating a Private Path network load balancer](/docs/vpc?topic=vpc-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui){: external}
-- [Creating a Private Path service](/docs/vpc?topic=vpc-private-path-service-about&interface=ui){: external}
+- [Private Path service architecture](/docs/private-path?topic=private-path-private-path-service-architecture)
+- [About Private Path services](/docs/vpc?topic=vpc-private-path-service-intro&interface=ui)
+- [Creating a Private Path network load balancer](/docs/vpc?topic=vpc-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui)
+- [Creating a Private Path service](/docs/vpc?topic=vpc-private-path-service-about&interface=ui)
