@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-11-05"
+lastupdated: "2024-11-13"
 
 keywords:
 
@@ -43,11 +43,6 @@ The Private Path solution incorporates various products that IBM Cloud customers
 
 To use IBM Cloud Private Path, you must first have an IBM Cloud account. To learn more, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started){: external}.
 {: note}
-
-## Private Path overview video
-{: #private-path-overview-video}
-
-Forthcoming
 
 ## Next steps
 {: #private-path-next-steps}

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2024
-lastupdated: "2024-11-12"
+lastupdated: "2024-11-13"
 
 keywords:
 
@@ -17,10 +17,10 @@ content-type: release-note
 # Release notes for Private Path
 {: #private-path-relnotes}
 
-Check back regularly to see what's new with {{site.data.keyword.cloud}} Private Path service. 
+Check back regularly to see what's new with {{site.data.keyword.cloud}} Private Path service.
 {: shortdesc}
 
-### 12 November 2024
+## 12 November 2024
 {: #privatepath-nov1224}
 {: release-note}
 
