@@ -16,7 +16,6 @@
         },
         {
           "title": "Creating a Private Path service",
-          "description": "You can create a Private Path service in your IBM Cloud VPC by using the IBM Cloud console, CLI, API, or Terraform.",
           "href": "/docs/vpc?topic=vpc-creating-virtual-servers&interface=ui"
         },
         {
@@ -26,11 +25,6 @@
         {
           "title": "Creating a Private Path network load balancer",
           "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
-        },
-        {
-          "title": "Communicating connection information to customers",
-          "description": "Communiate connection information to customers so that they can connect to your Private Path service.",
-          "href": "/docs/private-path?topic=private-path-pps-ui-communicate"
         }
       ]
     },
@@ -44,8 +38,8 @@
         "tiles": [
           {
             "date": "12 November 2025",
-            "title": "Private Path services are now generally available. Provides targeted and directional connectivity between VPCs and accounts, allowing only consumers to initiate connections to the provider's service endpoint."
-          }
+            "title": "Private Path services are now generally available."
+          },
           {
             "date": "18 March 2024",
             "title": "Introducing the Private Path solution (Beta release) to keep customer data off the public internet"
