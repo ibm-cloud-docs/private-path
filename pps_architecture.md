@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-10-09"
+lastupdated: "2024-11-07"
 
 keywords:
 
@@ -14,9 +14,6 @@ subcollection: private-path
 
 # Private Path architecture
 {: #private-path-service-architecture}
-
-The beta release of {{site.data.keyword.cloud}} Private Path services is only available to allowlisted users. Contact your IBM Support representative if you are interested in getting early access to this beta offering.
-{: beta}
 
 A Private Path service provides private connectivity for IBM Cloud and third-party services. A Private Path service requires a Private Path network load balancer (NLB) to deploy a service on IBM Cloud and a Virtual Private Endpoint (VPE) gateway for consumers to connect to the service.
 {: shortdesc}

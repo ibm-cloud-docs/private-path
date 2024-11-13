@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-11-05"
+lastupdated: "2024-11-06"
 
 keywords:
 
@@ -14,9 +14,6 @@ subcollection: private-path
 
 # Private Path service roles and responsibilities
 {: #private-path-service-roles-and-responsibilities}
-
-The beta release of IBM Cloud Private Path services is only available to allowlisted users. Contact your IBM Support representative if you are interested in getting early access to this beta offering.
-{: beta}
 
 Private Path service is an orchestration service. The roles and responsibilities for Private Path connectivity are shared between the Provider and Consumer, not IBM Cloud. 
 {: note}
