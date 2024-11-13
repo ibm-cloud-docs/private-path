@@ -35,13 +35,17 @@
       ]
     },
     "section_devtools": {
-        "api": "/apidocs/vpc-beta/latest",
+        "api": "/apidocs/vpc/latest",
         "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
         "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
     },
     "section_updates": {
         "view_more": "/docs/private-path?topic=private-path-private-path-relnotes",
         "tiles": [
+          {
+            "date": "12 November 2025",
+            "title": "Private Path services are now generally available. Provides targeted and directional connectivity between VPCs and accounts, allowing only consumers to initiate connections to the provider's service endpoint."
+          }
           {
             "date": "18 March 2024",
             "title": "Introducing the Private Path solution (Beta release) to keep customer data off the public internet"

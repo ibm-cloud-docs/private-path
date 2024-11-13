@@ -11,7 +11,7 @@ toc:
     href: /docs/private-path
     path: private-path
     description: Enable and manage private connectivity for your hosted service.
-    label: Private Path solution guide (Beta)
+    label: Private Path solution guide
   entries:
     - navgroup:
        id: overview
