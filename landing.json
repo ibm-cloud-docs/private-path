@@ -25,7 +25,7 @@
         {
           "title": "Creating a Private Path network load balancer",
           "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
-        }
+        },
         {
           "title": "Communicating connection information to consumers",
           "href": "/docs/vpc?topic=vpc-pps-ui-communicate"
