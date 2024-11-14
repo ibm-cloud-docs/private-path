@@ -30,12 +30,14 @@
     },
     "section_highlights": [
       {
-        "title": "Introducing IBM Cloud VPC Private Path: Private connectivity and secure access to services on IBM Cloud",
+        "title": "Introducing IBM Cloud VPC Private Path",
+        "description": "Learn more about Private Path, a new service that offers private connectivity and secure access to services on IBM Cloud.",
         "href": "https://community.ibm.com/community/user/cloud/blogs/liju-jacob1/2024/11/11/ibm-cloud-private-path",
         "type": "blog"
       },
       {
         "title": "Private Path service use cases",
+        "description": "Learn more about the use cases for Private Path service.",
         "href": "https://cloud.ibm.com/docs/vpc?topic=vpc-private-path-service-intro#pps-use-cases",
         "type": "blog",
         "recommended": true
