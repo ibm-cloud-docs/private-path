@@ -11,6 +11,10 @@
           "href": "/docs/private-path?topic=private-path-overview&interface=ui"
         },
         {
+          "title": "Exposing services to customers through private connectivity",
+          "href": "/docs/private-path?topic=private-path-vpc-pps-basics&interface=ui"
+        },
+        {
           "title": "Creating a Private Path service",
           "href": "/docs/vpc?topic=vpc-creating-virtual-servers&interface=ui"
         },
