@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-11-06"
+lastupdated: "2024-11-13"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: private-path
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Private Path service roles and responsibilities
+# Understanding Private Path service roles and responsibilities
 {: #private-path-service-roles-and-responsibilities}
 
 Private Path service is an orchestration service. The roles and responsibilities for Private Path connectivity are shared between the Provider and Consumer, not IBM Cloud. 

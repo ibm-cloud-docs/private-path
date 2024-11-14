@@ -25,7 +25,7 @@ Check back regularly to see what's new with {{site.data.keyword.cloud}} Private 
 {: release-note}
 
 Private Path services for VPC
-: Private Path services are now generally available. Private Path services provide targeted and directional connectivity between VPCs and accounts, allowing only consumers to initiate connections to the provider's service endpoint. Explicit authorization gives providers full control of who can access their services.
+:   Private Path services are now generally available. Private Path services provide targeted and directional connectivity between VPCs and accounts, allowing only consumers to initiate connections to the provider's service endpoint. Explicit authorization gives providers full control of who can access their services.
 A Private Path service requires a Private Path network load balancer to deploy a service on IBM Cloud, as well as a Virtual Private Endpoint (VPE) gateway for consumers to connect to the service.
 {: note}
 
