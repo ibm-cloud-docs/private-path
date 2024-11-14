@@ -37,7 +37,7 @@ toc:
         id: reference
         topics:
         - include: ../vpc/at-events.md
-        - include: ../vpc/quotas.md
+        - quotas.md
         - pps_responsibilities.md
     - navgroup:
         id: help
