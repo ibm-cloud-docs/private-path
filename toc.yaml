@@ -47,4 +47,3 @@ toc:
         - include: ../vpc/ts-pps1.md
         - include: ../vpc/ts-pps2.md
         - include: ../vpc/ts-pps3.md
-        - include: ../vpc/lb-ts-auth-errors.md
