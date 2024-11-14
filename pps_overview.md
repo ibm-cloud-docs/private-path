@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2024
-lastupdated: "2024-11-13"
+lastupdated: "2024-11-14"
 
 keywords:
 
@@ -31,11 +31,11 @@ Scaling out managed services
 Decreased complexity
 :   Simplify cloud network management and consume services directly in virtual networks without needing complex setups. Set up access policy enforcement and quickly expose and consume services across different networks and organizations.
 
-Line rate performance
-:   Stateless load balancing enables bypassing intermediate hops resulting in optimal performance.
+High Performance and scalability
+:   The Private Paths load balancer transparently scales out to provide extremely high throughput and low latency.
 
 High Availability
-:   Zonal resilience for the Private Path network load balancer, ensuring regional fault tolerance and high availability.
+:   Private Path network load balancer is a regional load balancer and is resilient to a zone failing.
 
 The Private Path solution incorporates various products that IBM Cloud customers are already familiar with, such as VPC and network load balancers. It also incorporates any configured Virtual Private Endpoint (VPE) gateways and DNS Services, ensuring that the entire point-to-point data path is private across IBM Cloud.
 
