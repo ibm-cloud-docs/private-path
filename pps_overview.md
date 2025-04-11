@@ -44,6 +44,10 @@ The Private Path solution incorporates various products that IBM Cloud customers
 To use IBM Cloud Private Path, you must first have an IBM Cloud account. To learn more, see [Setting up your IBM Cloud account](/docs/account?topic=account-account-getting-started).
 {: note}
 
+{{../vpc/pps-about.md#pps-getting-started}}
+
+{{../vpc/pps-about.md#pps-use-cases}}
+
 ## Next steps
 {: #private-path-next-steps}
 
