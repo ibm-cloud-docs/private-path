@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years:  2023, 2024
-lastupdated: "2024-11-14"
+  years:  2023, 2025
+lastupdated: "2025-04-11"
 
 keywords:
 
@@ -31,8 +31,8 @@ Scaling out managed services
 Decreased complexity
 :   Simplify cloud network management and consume services directly in virtual networks without needing complex setups. Set up access policy enforcement and quickly expose and consume services across different networks and organizations.
 
-High Performance and scalability
-:   The Private Paths load balancer transparently scales out to provide extremely high throughput and low latency.
+High performance and scalability
+:   The Private Path network load balancer transparently scales out to provide extremely high throughput and low latency.
 
 High Availability
 :   Private Path network load balancer is a regional load balancer and is resilient to a zone failing.
