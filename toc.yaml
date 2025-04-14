@@ -42,7 +42,7 @@ toc:
     - navgroup:
         id: help
         topics:
-        - pps_help.md
+        - include: ../vpc/getting-help.md
         - include: ../vpc/faq-private-path.md
         - include: ../vpc/ts-pps1.md
         - include: ../vpc/ts-pps2.md
