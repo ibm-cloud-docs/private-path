@@ -2,7 +2,7 @@
     "version": 2,
     "title": "IBM Cloud Private Path solution guide",
     "introduction": "With IBM Cloud Private Path solution, providers can deliver services securely over the IBM Cloud private network backbone without exposing data over the public internet. Leverage the docs, API & SDK reference, architecture references, and more to support your infrastructure needs.",
-    "product_page": "https://www.ibm.com/cloud/privatePathServices",
+    "product_page": "https://www.ibm.com/products/private-path",
     "console_page": "/infrastructure/network/privatePathServices",
     "section_topics": {
       "links": [
