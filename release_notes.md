@@ -1,12 +1,12 @@
 ---
 
 copyright:
-  years: 2024, 2024
-lastupdated: "2024-11-13"
+  years: 2024, 2025
+lastupdated: "2025-04-14"
 
 keywords:
 
-subcollection: _private-path_
+subcollection: private-path
 
 content-type: release-note
 
