@@ -29,6 +29,10 @@
         {
           "title": "Communicating connection information to consumers",
           "href": "/docs/vpc?topic=vpc-pps-ui-communicate"
+        },
+        {
+          "title": "Using an ALB with a Private Path NLB to host services outside a VPC",
+          "href": "/docs/vpc?topic=vpc-private-path-service-intro#pps-use-case-5"
         }
       ]
     },
