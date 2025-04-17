@@ -2,7 +2,7 @@
 
 copyright:
   years:  2023, 2025
-lastupdated: "2025-04-11"
+lastupdated: "2025-04-15"
 
 keywords:
 
@@ -15,7 +15,11 @@ subcollection: private-path
 # About Private Path
 {: #overview}
 
+Accounts with special approval can attach an ALB to a Private Path NLB pool, enabling access to on-prem resources while maintaining a private connection across IBM Cloud.
+{: preview}
+
 The Private Path solution solves security, privacy and complexity problems. Through Private Path, providers can deliver their services over the IBM Cloud private network backbone, ensuring secure and private interactions for consumers. Providers can offer their services to IBM Cloud customers over Private Path using the IBM Cloud infrastructure. Private Path components are used when connecting to IBM Cloud services, and can now be used for third-party applications and services.
+{: shortdesc}
 
 The Private Path solution has the following advantages:
 
@@ -36,6 +40,9 @@ High performance and scalability
 
 High Availability
 :   Private Path network load balancer is a regional load balancer and is resilient to a zone failing.
+
+Host managed services on IBM Cloud or on-premises
+:   Quickly deploy managed services on IBM Cloud or on-premises and deliver policy-driven access to your consumers.
 
 The Private Path solution incorporates various products that IBM Cloud customers are already familiar with, such as VPC and network load balancers. It also incorporates any configured Virtual Private Endpoint (VPE) gateways and DNS Services, ensuring that the entire point-to-point data path is private across IBM Cloud.
 
