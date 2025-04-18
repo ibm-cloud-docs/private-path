@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024, 2025
-lastupdated: "2025-04-17"
+lastupdated: "2025-04-18"
 
 keywords:
 
@@ -20,7 +20,7 @@ content-type: release-note
 Check back regularly to see what's new with {{site.data.keyword.cloud}} Private Path service.
 {: shortdesc}
 
-### 10 April 2025
+## 10 April 2025
 {: #privatepath-apr1025}
 {: release-note}
 
