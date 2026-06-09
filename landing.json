@@ -1,72 +1,72 @@
 {
-    "version": 2,
-    "title": "IBM Cloud Private Path solution guide",
-    "introduction": "With IBM Cloud Private Path solution, providers can deliver services securely over the IBM Cloud private network backbone without exposing data over the public internet. Leverage the docs, API & SDK reference, architecture references, and more to support your infrastructure needs.",
-    "product_page": "https://www.ibm.com/products/private-path",
-    "console_page": "/infrastructure/network/privatePathServices",
-    "section_topics": {
-      "links": [
-        {
-          "title": "About Private Path",
-          "href": "/docs/private-path?topic=private-path-overview&interface=ui"
-        },
-        {
-          "title": "Exposing services to customers through private connectivity",
-          "href": "/docs/private-path?topic=private-path-vpc-pps-basics&interface=ui"
-        },
-        {
-          "title": "Creating a Private Path service",
-          "href": "/docs/private-path?topic=private-path-private-path-service-about&interface=ui"
-        },
-        {
-          "title": "Verifying connectivity to a Private Path service",
-          "href": "/docs/private-path?topic=private-path-pps-verify&interface=ui"
-        },
-        {
-          "title": "Creating a Private Path network load balancer",
-          "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
-        },
-        {
-          "title": "Communicating connection information to consumers",
-          "href": "/docs/vpc?topic=vpc-pps-ui-communicate"
-        },
-        {
-          "title": "Using an ALB with a Private Path NLB to host services outside a VPC",
-          "href": "/docs/vpc?topic=vpc-private-path-service-intro#pps-use-case-5"
-        }
-      ]
-    },
-    "section_highlights": [
+  "version": 2,
+  "title": "IBM Cloud Private Path solution guide",
+  "introduction": "With IBM Cloud Private Path solution, providers can deliver services securely over the IBM Cloud private network backbone without exposing data over the public internet. Leverage the docs, API & SDK reference, architecture references, and more to support your infrastructure needs.",
+  "product_page": "https://www.ibm.com/products/private-path",
+  "console_page": "/infrastructure/network/privatePathServices",
+  "section_topics": {
+    "links": [
       {
-        "title": "Introducing IBM Cloud VPC Private Path",
-        "description": "Learn more about Private Path, a new service that offers private connectivity and secure access to services on IBM Cloud.",
-        "href": "https://community.ibm.com/community/user/blogs/liju-jacob1/2024/11/11/ibm-cloud-private-path",
-        "type": "blog"
+        "title": "About Private Path",
+        "href": "/docs/private-path?topic=private-path-overview&interface=ui"
       },
       {
-        "title": "Private Path: Enabling access to on-prem services from a consumer VPC",
-        "description": "Follow this tutorial to enable access to on-prem services from a consumer VPC.",
-        "href": "/docs/vpc?topic=vpc-how-to-expose-by-alb",
-        "type": "tutorial",
-        "recommended": true
+        "title": "Exposing services to customers through private connectivity",
+        "href": "/docs/private-path?topic=private-path-vpc-pps-basics&interface=ui"
+      },
+      {
+        "title": "Creating a Private Path service",
+        "href": "/docs/private-path?topic=private-path-private-path-service-about&interface=ui"
+      },
+      {
+        "title": "Verifying connectivity to a Private Path service",
+        "href": "/docs/private-path?topic=private-path-pps-verify&interface=ui"
+      },
+      {
+        "title": "Creating a Private Path network load balancer",
+        "href": "/docs/private-path?topic=private-path-ppnlb-ui-creating-private-path-network-load-balancer&interface=ui"
+      },
+      {
+        "title": "Communicating connection information to consumers",
+        "href": "/docs/vpc?topic=vpc-pps-ui-communicate"
+      },
+      {
+        "title": "Using an ALB with a Private Path NLB to host services outside a VPC",
+        "href": "/docs/vpc?topic=vpc-private-path-service-intro#pps-use-case-5"
       }
-    ],
-    "section_devtools": {
-        "api": "/apidocs/vpc/latest",
-        "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
-        "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
+    ]
+  },
+  "section_highlights": [
+    {
+      "title": "Introducing IBM Cloud VPC Private Path",
+      "description": "Learn more about Private Path, a new service that offers private connectivity and secure access to services on IBM Cloud.",
+      "href": "https://community.ibm.com/community/user/blogs/liju-jacob1/2024/11/11/ibm-cloud-private-path",
+      "type": "blog"
     },
-    "section_updates": {
-        "view_more": "/docs/private-path?topic=private-path-private-path-relnotes",
-        "tiles": [
-          {
-            "date": "12 November 2025",
-            "title": "Private Path services are now generally available."
-          },
-          {
-            "date": "18 March 2024",
-            "title": "Introducing the Private Path solution (Beta release) to keep customer data off the public internet"
-          }
-      ]
+    {
+      "title": "Private Path: Enabling access to on-prem services from a consumer VPC",
+      "description": "Follow this tutorial to enable access to on-prem services from a consumer VPC.",
+      "href": "/docs/vpc?topic=vpc-how-to-expose-by-alb",
+      "type": "tutorial",
+      "recommended": true
     }
+  ],
+  "section_devtools": {
+    "api": "/apidocs/vpc/latest",
+    "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
+    "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
+  },
+  "section_updates": {
+    "view_more": "/docs/private-path?topic=private-path-private-path-relnotes",
+    "tiles": [
+      {
+        "date": "12 November 2025",
+        "title": "Private Path services are now generally available."
+      },
+      {
+        "date": "18 March 2024",
+        "title": "Introducing the Private Path solution (Beta release) to keep customer data off the public internet"
+      }
+    ]
   }
+}
