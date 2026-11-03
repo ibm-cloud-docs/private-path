@@ -127,96 +127,53 @@ Before you begin, make sure to [set up your CLI environment](/docs/vpc?topic=vpc
 
 To create a Private Path service from the CLI, follow these steps:
 
-1. Enter the following command:<cli-is>
+1. Enter the following command:
 
-```sh
-ibmcloud is private-path-service-gateway-create
-    [--load balancer LOAD_BALANCER]
-    [--service-endpoints SERVICE_ENDPOINTS]
-    [--default-access-policy | deny | permit | review]
-    [--name NAME]
-    [--zonal-affinity | true | false]
-    [--output JSON] [-q, --quiet]
-```
-{: pre}</cli-is><cli-vpc-iaas>
+   ```sh
+   ibmcloud is private-path-service-gateway-create --load-balancer LOAD_BALANCER --service-endpoints SERVICE_ENDPOINTS [--default-access-policy deny | permit | review] [--name NAME] [--zonal-affinity false | true] [--output JSON] [-q, --quiet]
+   ```
+   {: pre}
 
-```sh
-ibmcloud vpc-iaas private-path-service-gateway-create --service-endpoints SERVICE-ENDPOINTS [--load-balancer-id LOAD-BALANCER-ID] [--default-access-policy deny | permit | review] [--name NAME] [--resource-group-id RESOURCE-GROUP-ID] [--is-zonal-affinity-enabled=IS-ZONAL-AFFINITY-ENABLED]
-```
-{: pre}</cli-vpc-iaas><cli-is>
+   Where:
 
-Where:
+   `--load-balancer`
+   :   Indicates ID or name of load balancer for this Private Path service.
 
-`--load-balancer`
-:   Indicates ID or name of load balancer for this Private Path service.
+   `--service-endpoints`
+   :   Indicates the fully qualified domain names for this Private Path service. Any uppercase letters will be converted to lowercase.
 
-`--service-endpoints`
-:   Indicates the fully qualified domain names for this Private Path service. Any uppercase letters will be converted to lowercase.
+   `--default-access-policy`
+   :   Indicates the policy to use for bindings from accounts without an explicit account policy. One of: `deny`, `permit`, `review`. (default: `deny`).
 
-`--default-access-policy`
-:   Indicates the policy to use for bindings from accounts without an explicit account policy. One of: `deny`, `permit`, `review`. (default: `deny`).
+   `--name`
+   :   Indicates the name for this Private Path service.
 
-`--name`
-:   Indicates the name for this Private Path service.
+   `--zonal-affinity`
+   :   Indicates whether this Private Path service has zonal affinity. One of: `false`, `true`.
 
-`--zonal-affinity`
-:   indicates whether this Private Path service has zonal affinity. One of: `false`, `true`.
+   `--output`
+   :   Specify output format, only JSON is supported. One of: `JSON`.
 
-`--output`
-:   specify output format, only JSON is supported. One of: `JSON`.
-
-`-q, --quiet`
-:   suppress verbose output.
-</cli-is><cli-vpc-iaas>
-
-Where:
-
-`--service-endpoints`
-:   Required. The fully qualified domain names for this private path service gateway. Any uppercase letters will be converted to lowercase. The maximum length is 10 items. The minimum length is 1 item.
-
-`--load-balancer-id`
-:   The unique identifier for this load balancer. The maximum length is 64 characters. The minimum length is 1 character.
-
-`--default-access-policy`
-:   The policy to use for bindings from accounts without an explicit account policy. Allowable values are: deny, permit, review.
-
-`--name`
-:   The name for this private path service gateway. The name must not be used by another private path service gateway in the VPC. If unspecified, the name is a hyphenated list of randomly selected words. The maximum length is 63 characters. The minimum length is 1 character.
-
-`--resource-group-id`
-:   The unique identifier for this resource group. Length must be 32 characters.
-
-`--is-zonal-affinity-enabled`
-:   Indicates whether this private path service gateway has zonal affinity.
-    - 'true': Traffic to the service from a zone the service resides in will remain in that zone.
-    - 'false': Traffic to the service from a zone will be load balanced across all zones in the region the service resides in. The default value is false.
-
-`--output`
-:   Indicates output format, only JSON is supported. One of: `JSON`.
-
-`-q, --quiet`
-:   Suppresses verbose messages.
-</cli-vpc-iaas>
+   `-q, --quiet`
+   :   Suppress verbose output.
 
 ### Command examples
 {: #cli-cmd-examples-creating-private-path-service}
 {: cli}
 
-- Create a policy-based Private Path service with a permit policy and zonal affinity:<cli-is>
-   `ibmcloud is private-path-service-gateway-create --load-balancer my-cli-nlb --service-endpoints cli.domain.com --default-access-policy permit --name cli-ppsg-1 --zonal-affinity true`
+- Create a policy-based Private Path service with a permit policy and zonal affinity:
 
-   </cli-is><cli-vpc-iaas>
-   `ibmcloud vpc-iaas private-path-service-gateway-create --load-balancer-id r134-651bd3b9-96a5-4352-abec-396fcd4bf15f --service-endpoints cli.domain.com --default-access-policy permit --name cli-ppsg-1 --is-zonal-affinity-enabled=true`
+   ```sh
+   ibmcloud is private-path-service-gateway-create --load-balancer my-cli-nlb --service-endpoints cli.domain.com --default-access-policy permit --name cli-ppsg-1 --zonal-affinity true
+   ```
+   {: pre}
 
-   </cli-vpc-iaas>
+- Create a policy-based Private Path service with a deny policy and zonal affinity:
 
-- Create a policy-based Private Path service with a deny policy and zonal affinity:<cli-is>
-   `ibmcloud is private-path-service-gateway-create --load-balancer r006-d-439744e1-81d7-43fb-95d5-2356774240bb --service-endpoints clidemo.domain.com --default-access-policy deny --name cli-ppsg-2 --zonal-affinity true`
-
-   </cli-is><cli-vpc-iaas>
-   `ibmcloud vpc-iaas private-path-service-gateway-create --load-balancer-id r134-f67db99b-755e-4f0e-b62f-deb39da82a05 --service-endpoints clidemo.domain.com --default-access-policy deny --name cli-ppsg-2 --is-zonal-affinity-enabled=true`
-
-   </cli-vpc-iaas>
+   ```sh
+   ibmcloud is private-path-service-gateway-create --load-balancer r006-d-439744e1-81d7-43fb-95d5-2356774240bb --service-endpoints clidemo.domain.com --default-access-policy deny --name cli-ppsg-2 --zonal-affinity true
+   ```
+   {: pre}
 
 ## Creating a Private Path service with the API
 {: #pps-api-creating-private-path-service}
