@@ -2,11 +2,11 @@
 
 copyright:
   years: 2023, 2026
-lastupdated: "2026-10-25"
+lastupdated: "2026-11-03"
 
 keywords:
 
-subcollection: vpc
+subcollection: private-path
 
 ---
 
@@ -50,7 +50,7 @@ To create a Private Path service with the {{site.data.keyword.cloud_notm}} conso
 1. Select the **Navigation menu** icon, then click **Infrastructure** ![VPC icon](../../icons/vpc.svg) > **Network** > **Private Path services**.
 1. Click **Create**.
 1. Review the checklist for important information.
-1. In the Location section, ensure that the following fields are correct. If not, click the Edit icon ![Edit icon](images/edit.png) to update.
+1. In the Location section, ensure that the following fields are correct. If not, click the **Edit** icon to update.
     * **Geography**: The general area where you want to create the Private Path service.
     * **Region**: The region where you want to create the Private Path service.
 1. In the Details section, provide the following information:

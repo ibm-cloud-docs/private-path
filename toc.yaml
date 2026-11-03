@@ -27,7 +27,7 @@ toc:
       id: howto
       topics:
       - include: ../vpc/ppnlb-create.md
-      - include: pps_create.md
+      - pps_create.md
       - include: ../vpc/pps-verify.md
       - include: ../vpc/pps-publish.md
       - include: ../vpc/vpe-create.md
