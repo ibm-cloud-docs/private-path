@@ -46,13 +46,13 @@
     {
       "title": "Private Path: Enabling access to on-prem services from a consumer VPC",
       "description": "Follow this tutorial to enable access to on-prem services from a consumer VPC.",
-      "href": "/docs/vpc?topic=vpc-how-to-expose-by-alb",
-      "type": "tutorial",
+      "href": "https://cloud.ibm.com/docs/vpc?topic=vpc-how-to-expose-by-alb",
+      "type": "article",
       "recommended": true
     }
   ],
   "section_devtools": {
-    "api": "/apidocs/vpc/latest",
+    "api": "/docs/apis/vpc/latest",
     "cli": "/docs/vpc?topic=vpc-set-up-environment&interface=cli",
     "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/is_instance"
   },
